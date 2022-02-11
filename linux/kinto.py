@@ -591,6 +591,12 @@ define_keymap(re.compile(codeStr, re.IGNORECASE),{
     # K("Super-Shift-down"): K("M-Shift-down"),   # multi-cursor down - Sublime
     # K(""): pass_through_key,                    # cancel
     # K(""): K(""),                               #
+
+    # VSCodeVim Shortcuts
+    K("Super-d"): K("LC-d"),
+    K("Super-u"): K("LC-u"),
+    K("Super-o"): K("LC-o"),
+    K("Super-i"): K("LC-i"),
 }, "Code")
 
 # Keybindings for Sublime Text
